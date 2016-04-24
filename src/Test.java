@@ -14,5 +14,6 @@ public class Test extends HttpServlet {
         response.setHeader("Access-Control-Allow-Origin", "*");
         response.getWriter().write("test");
 
+
     }
 }
